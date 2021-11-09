@@ -65,3 +65,4 @@ origin  https://github.com/h-amarillo/pruebaNodeJS.git (push)
 
 harum@LAPTOP-LNP70TPU MINGW64 ~/DH WEB FULL STACK (main)
 $
+´reuba del commit pa sincornixzar
