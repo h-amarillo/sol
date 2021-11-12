@@ -134,6 +134,10 @@ main{
 main section article{
     background-color: #fff;    
     margin: 10px 0px;
+    transition: box-shadow 0.5;
+}
+main section article:hover{
+    box-shadow: 0px 0px 10px rgb(100, 100, 100);
 }
 
 main section article img{
@@ -159,6 +163,22 @@ main section article i{
     top: -15px;
 }
 
+/*Clase transisciones y animaciones*/
+main section article h4{
+    opacity: 0;
+    transition: opacity 500ms;
+}
+main section article h4:hover{
+    opacity: 1;
+    transition: opacity 500ms;
+}
+main section article .fas.fa-truck{
+    transition: transform 0.8s;
+}
+main section article .fas.fa-truck:hover{
+    transform: rotate(-90deg);
+}
+
 main section h3{
     margin: 20px 0px;
 }
@@ -173,13 +193,22 @@ article div.main-article{
     padding: 15px;
 }
 
+/*--para archivo REGISTER de CREAR CUENTA--*/
+body form div .botones:hover{
+    transition: background-color 0.4s;
+}
+body form div button .submit:hover{
+    background-color: #0022AA;
+    color:seashell;
+}
+body form div button.reset:hover{
+    background-color: #d66d0b;
+    color:seashell;
+}
+
 @media (min-width: 361px){
     main section article .description{
         display: block;
-    }
-
-    main section article{
-        box-shadow: 0px 0px 10px rgb(100, 100, 100);
     }
 
     main section div.products{
